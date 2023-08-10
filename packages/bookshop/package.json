@@ -5,7 +5,8 @@
   "license": "SAP SAMPLE CODE LICENSE",
   "dependencies": {
     "@sap/cds": "^3",
-    "express": "^4"
+    "express": "^4",
+    "@sap/cds-hana": "^2"
   },
   "scripts": {
     "start": "cds run --in-memory?",
@@ -14,7 +15,7 @@
   "cds": {
     "requires": {
       "db": {
-        "kind": "sql"
+        "kind": "hana"
       }
     }
   }
